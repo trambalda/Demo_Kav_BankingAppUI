@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214358A7279B03550097E0CE /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214358A6279B03540097E0CE /* CustomCorner.swift */; };
 		21E7E6F5279AF5CC00BA40AA /* Demo_Kav_BankingAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7E6F4279AF5CC00BA40AA /* Demo_Kav_BankingAppUIApp.swift */; };
 		21E7E6F7279AF5CC00BA40AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7E6F6279AF5CC00BA40AA /* ContentView.swift */; };
 		21E7E6F9279AF5CE00BA40AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E7E6F8279AF5CE00BA40AA /* Assets.xcassets */; };
 		21E7E6FC279AF5CE00BA40AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E7E6FB279AF5CE00BA40AA /* Preview Assets.xcassets */; };
+		21E7E706279AF89100BA40AA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7E705279AF89100BA40AA /* Home.swift */; };
+		21E7E708279AF8C200BA40AA /* ColorGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E7E707279AF8C200BA40AA /* ColorGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214358A6279B03540097E0CE /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		21E7E6F1279AF5CC00BA40AA /* Demo_Kav_BankingAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Kav_BankingAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E7E6F4279AF5CC00BA40AA /* Demo_Kav_BankingAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Kav_BankingAppUIApp.swift; sourceTree = "<group>"; };
 		21E7E6F6279AF5CC00BA40AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21E7E6F8279AF5CE00BA40AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E7E6FB279AF5CE00BA40AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21E7E705279AF89100BA40AA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		21E7E707279AF8C200BA40AA /* ColorGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		21E7E6F3279AF5CC00BA40AA /* Demo_Kav_BankingAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				21E7E704279AF87800BA40AA /* ViewModel */,
+				21E7E703279AF86900BA40AA /* Model */,
+				21E7E702279AF85500BA40AA /* View */,
 				21E7E6F4279AF5CC00BA40AA /* Demo_Kav_BankingAppUIApp.swift */,
 				21E7E6F6279AF5CC00BA40AA /* ContentView.swift */,
 				21E7E6F8279AF5CE00BA40AA /* Assets.xcassets */,
@@ -65,6 +74,30 @@
 				21E7E6FB279AF5CE00BA40AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21E7E702279AF85500BA40AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21E7E705279AF89100BA40AA /* Home.swift */,
+				214358A6279B03540097E0CE /* CustomCorner.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21E7E703279AF86900BA40AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21E7E707279AF8C200BA40AA /* ColorGrid.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21E7E704279AF87800BA40AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E7E6F7279AF5CC00BA40AA /* ContentView.swift in Sources */,
+				214358A7279B03550097E0CE /* CustomCorner.swift in Sources */,
+				21E7E706279AF89100BA40AA /* Home.swift in Sources */,
 				21E7E6F5279AF5CC00BA40AA /* Demo_Kav_BankingAppUIApp.swift in Sources */,
+				21E7E708279AF8C200BA40AA /* ColorGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
